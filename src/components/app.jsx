@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import WeatherList from '../containers/weather_list';
-import SearchBar from '../containers/search_bar';
+import WeatherList from "../containers/weather-list";
+import SearchBar from "../containers/search-bar";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <SearchBar/>
+        <SearchBar />
         <WeatherList />
-        </div>
+      </div>
     );
   }
 }
